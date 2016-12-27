@@ -1,6 +1,6 @@
 # meteor-react-url-shortener
 
-**[Demo](https://meteor-react-url-shortener.herokuapp.com)**
+**[Demo](https://m-r-url.herokuapp.com)**
 
 A React, Meteor, Node.js, and MongoDB app that creates shortened URLs, similar to bit.ly or tinyurl.com. Built mostly to get acquainted with Meteor for the first time.
 
