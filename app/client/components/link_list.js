@@ -6,7 +6,8 @@ class LinkList extends Component {
     renderRows() {
         return this.props.links.map(link => {
             const { url, clicks, token } = link;
-            const shortLink = `http://localhost:3000/${token}`;
+            const domain = process.env.NODE_ENV === 'production' ? 'https://meteor-react-url-shortener.herokuapp.com/' : 'http://localhost:3000/';
+            const shortLink = domain + token;
             return (
                 <tr key={token}>
                     <td>{url}</td>
